@@ -24,7 +24,7 @@ def main():
     print("Stock Prices: ", end="")
     print(prices)
     # give the option of user input :)
-    user_price_input = input("Enter a list of integers separated by\n" +
+    user_price_input = input("Enter a list of integers separated by " +
         "spaces or press enter to use the default list:\n")
     user_prices = user_price_input.split()
     for i, p in enumerate(user_prices):
